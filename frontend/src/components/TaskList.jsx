@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-const API = import.meta.env.VITE_API_URL || "http://localhost:5000/api/tasks";
+const API = import.meta.env.VITE_API_URL || "https://mern-todo-kd0t.onrender.com/api/tasks";
 const TaskList = () => {
   const [tasks, setTasks] = useState([]);
   const [title, setTitle] = useState("");
